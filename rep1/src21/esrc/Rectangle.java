@@ -1,0 +1,28 @@
+// Rectangle.java
+
+import java.awt.Graphics;  // import class Graphics
+import java.awt.Color;     // import class Color
+
+// class Rectangle
+public class Rectangle extends SymmetricalShape {
+
+  // constructor
+  // arguments: x coordinate, y coordinate, 
+  //            width, height, color, filled or not
+  public Rectangle(int x, int y, int w, int h, Color c, boolean f) {
+
+    // code should be written here
+
+  }
+
+  // draw the rectangle
+  public void draw(Graphics gra) {
+
+    // code should be written here
+      gra.setColor(Color.gray);
+      gra.drawRect(x, y, width, height);
+      
+
+  }
+
+}
